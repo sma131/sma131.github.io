@@ -18,7 +18,7 @@ Pagespeed : 95 % Mobile; 96 % Desktop
 
  views/js/main.js for pizza.html:
 
- #####In function changePizzaSizes(size):
+ ####In function changePizzaSizes(size):
     add new variable and remove the redunt 
    
     1-make variable randomPizzas outside the for loop so i don't need to querying to dom every time
