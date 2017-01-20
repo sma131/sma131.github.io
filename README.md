@@ -27,15 +27,15 @@ https://github.com/udacity/frontend-nanodegree-mobile-portfolio
 - print.css
 - style.css
 
-1-Optimized images: 
-   -Resized and reduce  pizzaria.jpg and use the small copy for the index.html .
-2-Inline CSS styling: 
--Add print media to print.css.
--Inlined style.css.
-3-Eliminate render-blocking JavaScript:
--Moved all javascript to the bottom of body tag.
-4-Load google analytics async. 
-5-Removed the link to the fonts.
+1- Optimized images: 
+- Resized and reduce  pizzaria.jpg and use the small copy for the index.html .
+2- Inline CSS styling: 
+- Add print media to print.css.
+- Inlined style.css.
+3- Eliminate render-blocking JavaScript:
+- Moved all javascript to the bottom of body tag.
+4- Load google analytics async. 
+5- Removed the link to the fonts.
 
 Confirm the phade by testing via the Google PageSpeed Tools .
 
