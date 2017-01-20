@@ -10,7 +10,7 @@ This project is part of Udacity FrontEnd nanodegre, the outcome of the project i
 ##Project Instruction:
 ###Data Collection
 - You can read the project requirements at the following url:
-https://github.com/udacity/frontend-nanodegree-mobile-portfolio
+https://review.udacity.com/#!/rubrics/16/view
 
 - To get started please download the original non optimize code from the following repository:
 https://github.com/udacity/frontend-nanodegree-mobile-portfolio
