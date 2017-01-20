@@ -17,8 +17,8 @@ https://review.udacity.com/#!/rubrics/16/view
 https://github.com/udacity/frontend-nanodegree-mobile-portfolio
 
 
-###Code Optimization steps:
-####Part 1:
+##Code Optimization steps:
+###Part 1:
 - The first part of the project is to optimize PageSpeed Insights score for index.html
 - The following steps is required in order to meet the requirements
 
@@ -45,7 +45,7 @@ Confirm the phade by testing via the Google PageSpeed Tools .
 
 
 
-####Part 2:
+###Part 2:
 
 - The second part of the project is to optimize the fps for pizza.html
 - As per the requirements the fps must be 60 fps or higher when scrolling, 
@@ -54,9 +54,10 @@ Confirm the phade by testing via the Google PageSpeed Tools .
 
 *Affected files:* 
 - views/js/main.js .
+
 First record the timeline and Identify where Forced Synchronoused Layout in Main.js then apply the folloing steps: 
 
-1- Moved DOM queries out of loops where applicable ,so dom is not queryed every time to reduse the redundancy and to speed up the code
+1- Moved DOM queries out of loops where applicable ,so dom is not queryed every time to reduse the redundancy and to speed up the code:
 - Move the variable randomPizzas outside the for loop.
 - Move the variable pizzasDiv outside the for loop.
 - Declare the variable elem outside the for loop.
