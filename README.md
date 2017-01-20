@@ -47,20 +47,20 @@ Confirm the phade by testing via the Google PageSpeed Tools .
 
 ####Part 2:
 
--The second part of the project is to optimize the fps for pizza.html
--As per the requirements the fps must be 60 fps or higher when scrolling, 
--And reduce the time to resize the pizzas via the slider to less than 5 ms, 
--The following steps is required in order to meet the requirements
+- The second part of the project is to optimize the fps for pizza.html
+- As per the requirements the fps must be 60 fps or higher when scrolling, 
+- And reduce the time to resize the pizzas via the slider to less than 5 ms, 
+- The following steps is required in order to meet the requirements
 
 *Affected files:* 
--views/js/main.js .
+- views/js/main.js .
 First record the timeline and Identify where Forced Synchronoused Layout in Main.js then apply the folloing steps: 
 
 1- Moved DOM queries out of loops where applicable ,so dom is not queryed every time to reduse the redundancy and to speed up the code
-	- Move the variable randomPizzas outside the for loop.
-	- Move the variable pizzasDiv outside the for loop.
-	- Declare the variable elem outside the for loop.
-	- Declare the variable phase outside the for loop.
+- Move the variable randomPizzas outside the for loop.
+- Move the variable pizzasDiv outside the for loop.
+- Declare the variable elem outside the for loop.
+- Declare the variable phase outside the for loop.
 
 2- Changed all querySelectors into getElementById or getElementsByClassName to speed up the query selections.
 
