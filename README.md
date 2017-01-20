@@ -1,7 +1,8 @@
 # Website Performance Optimization portfolio project
 
-*Auther:* Asmaa Hassan
-*Date:* January 19, 2017
+**Auther:** Asmaa Hassan.
+
+**Date:** January 19, 2017.
 
 ##Description:
 This project is part of Udacity FrontEnd nanodegre, the outcome of the project is Optimizing a website code. The original code was running at less than 60 fps while scrolling, as well as slow pizzas rezsizing. After the my modification to the code, the webpage is running at 60 fps or higher and we have better preformance when resizing the pizzas.
